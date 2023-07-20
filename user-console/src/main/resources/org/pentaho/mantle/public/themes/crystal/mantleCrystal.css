@@ -408,16 +408,6 @@ a:active, a:hover {
   color: white;
 }
 
-/* In IE9, in quirks mode,
-  the class .backgroundContentHeaderTableCell's filter gradient
-  is not "propagated" from the _col_ elements to the corresponding _th_ element.
-  It works if the filter is applied directly to th element, though.
-  For precaution, this fix is only applied to the Schedule table (BISERVER-8539).
-*/
-.IE #schedule-table th {
-  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FF777777', endColorstr = '#FF000000');*/
-}
-
 .backgroundContentTableCell {
   background-color: white;
 }
@@ -958,22 +948,6 @@ a:active, a:hover {
 
 .custom-dropdown-pressed .custom-dropdown-arrow {
   background-image: url('images/dropdown_arrow_blue.png');
-}
-
-#generated-content-location {
-  width: 360px;
-  height: 25px;
-}
-
-#schedule-name-input {
-  width: 360px;
-  height: 25px;
-}
-
-.schedule-dialog-button-panel {
-  padding-right: 3px;
-  padding-bottom: 2px;
-  width: 100%;
 }
 
 .gwt-MenuBar-horizontal .gwt-MenuItem-selected {
